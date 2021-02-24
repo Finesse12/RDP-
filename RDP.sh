@@ -1,3 +1,5 @@
+printf "Check Out My Channel While Waiting- https://youtu.be/VeO22kIvZOQ" >&2
+{
 sudo useradd -m ALOK
 sudo adduser ALOK sudo
 sudo passwd
@@ -11,3 +13,6 @@ printf '\n https://remotedesktop.google.com/headless \n'
 printf "Check Out My Channel While Waiting- https://youtu.be/VeO22kIvZOQ" >&2
 read -p "Paste Here: " CRP
 su - ALOK -c """$CRP"""
+} &> /dev/null &&
+printf "\nSetup Completed " >&2 ||
+printf "\nError Occured " >&2
