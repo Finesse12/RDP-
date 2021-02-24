@@ -1,4 +1,6 @@
-useradd -p $(openssl passwd -crypt $PASS) $ALOK
+sudo useradd -m ALOK
+sudo adduser ALOK sudo
+sudo passwd
 sudo apt-get update
 wget https://dl.google.com/linux/direct/chrome-remote-desktop_current_amd64.deb -P /tmp
 sudo apt install /tmp/chrome-remote-desktop_current_amd64.deb
