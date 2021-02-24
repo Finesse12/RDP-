@@ -1,5 +1,5 @@
-sudo useradd -m USER
-sudo adduser USER sudo
+sudo useradd -m ALOK
+sudo adduser ALOK sudo
 sudo passwd
 printf 'Check Out My Channel While Waiting \n'
 printf "https://youtu.be/VeO22kIvZOQ" >&2
@@ -15,4 +15,4 @@ printf "\nSetup Completed " >&2 ||
 printf "\nError Occured " >&2
 printf '\nhttps://remotedesktop.google.com/headless \n'
 read -p "Paste Here: " CRP
-su - USER -c """$CRP"""
+su - ALOK -c """$CRP"""
