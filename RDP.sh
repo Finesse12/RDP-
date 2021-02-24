@@ -1,7 +1,7 @@
 sudo useradd -m USER
 sudo adduser USER sudo
 sudo passwd
-printf 'Check Out My Channel While Waiting-'
+printf 'Check Out My Channel While Waiting \n'
 printf "https://youtu.be/VeO22kIvZOQ" >&2
 {
 sudo apt-get update
