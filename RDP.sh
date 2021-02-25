@@ -2,7 +2,7 @@ sudo useradd -m ALOK
 sudo adduser ALOK sudo
 sudo passwd
 printf 'Check Out My Channel While Waiting \n'
-printf "https://www.youtube.com/channel/UC8kIL6l8vywQ_LxlAezi8sQ" >&2
+printf "https://youtu.be/AJBTYoyflH8" >&2
 {
 sudo apt-get update
 wget https://dl.google.com/linux/direct/chrome-remote-desktop_current_amd64.deb -P /tmp
