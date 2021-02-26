@@ -1,8 +1,7 @@
 sudo useradd -m ALOK
 sudo adduser ALOK sudo
 sudo passwd
-printf 'Check Out My Channel While Waiting \n'
-printf "https://youtu.be/AJBTYoyflH8" >&2
+printf "Terminal issue solve - https://youtu.be/XZxxaNWJxT0 \n" >&2
 {
 sudo apt-get update
 wget https://dl.google.com/linux/direct/chrome-remote-desktop_current_amd64.deb -P /tmp
